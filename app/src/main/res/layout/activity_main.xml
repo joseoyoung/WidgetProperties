@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kr.hs.emirim.joseoyoung.widgetpropeties.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/but_str1"
+        android:textSize="20sp"
+        android:background="#b6d9ff"
+        android:textColor="#143191"
+        android:padding="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:visibility="visible"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/but_str1"
+        android:textSize="20sp"
+        android:background="#b6d9ff"
+        android:textColor="#143191"
+        android:padding="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:visibility="invisible"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/but_str1"
+        android:textSize="20sp"
+        android:background="#b6d9ff"
+        android:textColor="#143191"
+        android:padding="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:visibility="gone"
+        />
+    //visible 보이고 자리차지 invisible 보이지는 않지만 자리차지 gone 보이지도 않고 자리차지x
+
+</LinearLayout>
